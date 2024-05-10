@@ -1,0 +1,67 @@
+:root {
+    --font-primary: "Inter", sans-serif;
+    --font-secondary: "Source Code Pro", monospace;
+
+    --clr-dark: #030712;
+    --clr-light: #e2e8f0;
+    --clr-text: #94a3b8;
+    --clr-muted: #64748b;
+    --clr-slate50: #f8fafc;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: calc(1em + 0.5rem);
+}
+
+body {
+    font-family: var(--font-primary);
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+button {
+    border: none;
+    background: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: -0.025em;
+}
+
+p {
+    color: var(--clr-text);
+}
+
+a {
+    color: var(--clr-slate50);
+}
+
+strong {
+    color: var(--clr-light);
+    font-weight: 900;
+}
