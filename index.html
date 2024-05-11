@@ -1,28 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./styles/modern-normalize.css">
     <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/components/header.css">
+    <link rel="stylesheet" href="./styles/components/mobile-nav.css">
     <link rel="stylesheet" href="./styles/utils.css">
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
     <title>Main page</title>
 </head>
+
 <body>
-    <!-- <h1>Hello World!</h1> -->
-    <!-- <header></header> -->
+    <header class="header container">
+        <div class="header__title-container">
+            <img src="./pablic/logo.png" alt="Men speak" width="720" height="972" class="header__logo">
+            <span class="header__title">You are incredible</span>
+        </div>
+        <button id="bars-btn" class="header__bars" aria-label="menu button">
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+        </button>
+        <nav class="header__menu">
+            <div class="header__social-container">
+                <a href="https://github.com/ihor-vt" target="_blank" rel="noreferrer noopener" title="github"
+                    aria-label="github link" class="header__social">
+                    <i aria-hidden="true" class="lni lni-github-original"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ihor-voitiuk" target="_blank" rel="noreferrer noopener"
+                    title="linkedin" aria-label="linkedin link" class="header__social">
+                    <i aria-hidden="true" class="lni lni-linkedin-original"></i>
+                </a>
+                <a href="https://www.youtube.com/@IhorVoitiuk/videos" target="_blank" rel="noreferrer noopener"
+                    title="youtube" aria-label="youtube link" class="header__social">
+                    <i aria-hidden="true" class="lni lni-youtube"></i>
+                </a>
+            </div>
+            <div class="header__separator"></div>
+            <a href="#" class="header__sing-in-btn">Sing in</a>
+            <a href="#" class="btn header__enter_app-btn">
+                Enter App
+                <svg aria-hidden="true" class="header__enter-app-btn__arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z"
+                        clip-rule="evenodd" />
+                </svg>
+            </a>
+        </nav>
+    </header>
+
+    <!-- mobile nav -->
+    <div class="mobile-nav" id="mobile-nav">
+        <button class="mobile-nav__close-btn" id="bars-close-btn">Close</button>
+        <img src="./pablic/logo.png" alt="Men speak" width="720" height="972" class="mobile-nav__logo">
+        <div class="mobile-nav__social-container">
+            <a href="https://github.com/ihor-vt" target="_blank" rel="noreferrer noopener" title="github"
+                aria-label="github link" class="mobile-nav__social">
+                <i aria-hidden="true" class="lni lni-github-original"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/ihor-voitiuk" target="_blank" rel="noreferrer noopener"
+                title="linkedin" aria-label="linkedin link" class="mobile-nav__social">
+                <i aria-hidden="true" class="lni lni-linkedin-original"></i>
+            </a>
+            <a href="https://www.youtube.com/@IhorVoitiuk/videos" target="_blank" rel="noreferrer noopener"
+                title="youtube" aria-label="youtube link" class="mobile-nav__social">
+                <i aria-hidden="true" class="lni lni-youtube"></i>
+            </a>
+        </div>
+        <div class="mobile-nav__separator"></div>
+        <a href="#" class="mobile-nav__sing-in-btn">Sing in</a>
+        <a href="#" class="btn mobile-nav__enter_app-btn">
+            Enter App
+            <svg aria-hidden="true" class="mobile-nav__enter-app-btn__arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path fill-rule="evenodd"
+                    d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z"
+                    clip-rule="evenodd" />
+            </svg>
+        </a>
+    </div>
     <!-- <main> -->
-        <!-- <section></section> -->
-        <!-- <section></section> -->
-        <!-- <section></section> -->
-        <!-- <section></section> -->
-        <!-- <section></section> -->
-        <!-- <section></section> -->
-        <!-- <section></section> -->
+    <!-- <section></section> -->
+    <!-- <section></section> -->
+    <!-- <section></section> -->
+    <!-- <section></section> -->
+    <!-- <section></section> -->
+    <!-- <section></section> -->
+    <!-- <section></section> -->
     <!-- </main> -->
     <!-- <footer></footer> -->
+
+    <script src="./src/main.js" type="module"></script>
 </body>
 </html>
