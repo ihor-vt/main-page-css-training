@@ -12,8 +12,12 @@
     --clr-slate300: #e2e8f0; /* slate300*/
     --clr-text: #94a3b8; /* slate400*/
     --clr-slate800: #1e293b; /* slate800*/
+    --clr-bg: #0a101f;
 
     --clr-muted: #6b7c94;
+
+    /* shadow */
+    --shadow-xl: 0 19px 38px rgba(15, 23, 42, 0.3), 0, 15px, 12px, rgba(15, 23, 42, 0.22);
 
     /* sizes */
     --size-xxs: 0.5rem;
