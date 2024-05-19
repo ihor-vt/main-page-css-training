@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./styles/components/pricing.css">
     <link rel="stylesheet" href="./styles/components/about.css">
     <link rel="stylesheet" href="./styles/components/testimonial.css">
+    <link rel="stylesheet" href="./styles/components/features.css">
     <link rel="stylesheet" href="./styles/utils.css">
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
     <title>Main page</title>
@@ -192,7 +193,8 @@
                         content that you will enjoy. Thank you again for your support, and I can't wait to see what the
                         future holds for our community!
                     </p>
-                    <a href="https://www.linkedin.com/in/ihor-voitiuk" target="_blank" rel="noopener noreferrer" class="about__btn btn">
+                    <a href="https://www.linkedin.com/in/ihor-voitiuk" target="_blank" rel="noopener noreferrer"
+                        class="about__btn btn">
                         Join the linkedin
                         <i aria-hidden="true" class="lni lni-linkedin-original about__btn-linkedin"></i>
                     </a>
@@ -250,9 +252,96 @@
                     <p class="testimonial__name">@Tom Cruise</p>
                 </div>
             </div>
-
         </section>
-        <!-- <section></section> -->
+
+        <section class="features container section">
+            <h2 class="title">Features</h2>
+            <div class="features__container">
+                <div class="features__content">
+                    <h2 class="features__title">A better way to learn</h2>
+                    <p class="features__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                        doloribus, delectus ipsa.</p>
+                </div>
+                <div class="features__grid">
+                    <div class="features__box features__box--0margin">
+                        <div class="features__box-icon-container">
+                            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor" class="features__box-icon">
+                                <path
+                                    d="M11.7 2.805a.75.75 0 0 1 .6 0A60.65 60.65 0 0 1 22.83 8.72a.75.75 0 0 1-.231 1.337 49.948 49.948 0 0 0-9.902 3.912l-.003.002c-.114.06-.227.119-.34.18a.75.75 0 0 1-.707 0A50.88 50.88 0 0 0 7.5 12.173v-.224c0-.131.067-.248.172-.311a54.615 54.615 0 0 1 4.653-2.52.75.75 0 0 0-.65-1.352 56.123 56.123 0 0 0-4.78 2.589 1.858 1.858 0 0 0-.859 1.228 49.803 49.803 0 0 0-4.634-1.527.75.75 0 0 1-.231-1.337A60.653 60.653 0 0 1 11.7 2.805Z" />
+                                <path
+                                    d="M13.06 15.473a48.45 48.45 0 0 1 7.666-3.282c.134 1.414.22 2.843.255 4.284a.75.75 0 0 1-.46.711 47.87 47.87 0 0 0-8.105 4.342.75.75 0 0 1-.832 0 47.87 47.87 0 0 0-8.104-4.342.75.75 0 0 1-.461-.71c.035-1.442.121-2.87.255-4.286.921.304 1.83.634 2.726.99v1.27a1.5 1.5 0 0 0-.14 2.508c-.09.38-.222.753-.397 1.11.452.213.901.434 1.346.66a6.727 6.727 0 0 0 .551-1.607 1.5 1.5 0 0 0 .14-2.67v-.645a48.549 48.549 0 0 1 3.44 1.667 2.25 2.25 0 0 0 2.12 0Z" />
+                                <path
+                                    d="M4.462 19.462c.42-.419.753-.89 1-1.395.453.214.902.435 1.347.662a6.742 6.742 0 0 1-1.286 1.794.75.75 0 0 1-1.06-1.06Z" />
+                            </svg>
+                        </div>
+                        <h3 class="features__box-title">Lorem Ipsum</h3>
+                        <p class="features__box-description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non placeat, vitae nesciunt porro
+                            ipsa beatae obcaecati hic praesentium ullam numquam quisquam sunt fugit doloribus odit vero
+                            nobis, culpa laboriosam accusamus?
+                        </p>
+                    </div>
+                    <div class="features__box">
+                        <div class="features__box-icon-container">
+                            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor" class="features__box-icon">
+                                <path
+                                    d="M11.7 2.805a.75.75 0 0 1 .6 0A60.65 60.65 0 0 1 22.83 8.72a.75.75 0 0 1-.231 1.337 49.948 49.948 0 0 0-9.902 3.912l-.003.002c-.114.06-.227.119-.34.18a.75.75 0 0 1-.707 0A50.88 50.88 0 0 0 7.5 12.173v-.224c0-.131.067-.248.172-.311a54.615 54.615 0 0 1 4.653-2.52.75.75 0 0 0-.65-1.352 56.123 56.123 0 0 0-4.78 2.589 1.858 1.858 0 0 0-.859 1.228 49.803 49.803 0 0 0-4.634-1.527.75.75 0 0 1-.231-1.337A60.653 60.653 0 0 1 11.7 2.805Z" />
+                                <path
+                                    d="M13.06 15.473a48.45 48.45 0 0 1 7.666-3.282c.134 1.414.22 2.843.255 4.284a.75.75 0 0 1-.46.711 47.87 47.87 0 0 0-8.105 4.342.75.75 0 0 1-.832 0 47.87 47.87 0 0 0-8.104-4.342.75.75 0 0 1-.461-.71c.035-1.442.121-2.87.255-4.286.921.304 1.83.634 2.726.99v1.27a1.5 1.5 0 0 0-.14 2.508c-.09.38-.222.753-.397 1.11.452.213.901.434 1.346.66a6.727 6.727 0 0 0 .551-1.607 1.5 1.5 0 0 0 .14-2.67v-.645a48.549 48.549 0 0 1 3.44 1.667 2.25 2.25 0 0 0 2.12 0Z" />
+                                <path
+                                    d="M4.462 19.462c.42-.419.753-.89 1-1.395.453.214.902.435 1.347.662a6.742 6.742 0 0 1-1.286 1.794.75.75 0 0 1-1.06-1.06Z" />
+                            </svg>
+                        </div>
+                        <h3 class="features__box-title">Lorem Ipsum</h3>
+                        <p class="features__box-description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non placeat, vitae nesciunt porro
+                            ipsa beatae obcaecati hic praesentium ullam numquam quisquam sunt fugit doloribus odit vero
+                            nobis, culpa laboriosam accusamus?
+                        </p>
+                    </div>
+                    <div class="features__box">
+                        <div class="features__box-icon-container">
+                            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor" class="features__box-icon">
+                                <path
+                                    d="M11.7 2.805a.75.75 0 0 1 .6 0A60.65 60.65 0 0 1 22.83 8.72a.75.75 0 0 1-.231 1.337 49.948 49.948 0 0 0-9.902 3.912l-.003.002c-.114.06-.227.119-.34.18a.75.75 0 0 1-.707 0A50.88 50.88 0 0 0 7.5 12.173v-.224c0-.131.067-.248.172-.311a54.615 54.615 0 0 1 4.653-2.52.75.75 0 0 0-.65-1.352 56.123 56.123 0 0 0-4.78 2.589 1.858 1.858 0 0 0-.859 1.228 49.803 49.803 0 0 0-4.634-1.527.75.75 0 0 1-.231-1.337A60.653 60.653 0 0 1 11.7 2.805Z" />
+                                <path
+                                    d="M13.06 15.473a48.45 48.45 0 0 1 7.666-3.282c.134 1.414.22 2.843.255 4.284a.75.75 0 0 1-.46.711 47.87 47.87 0 0 0-8.105 4.342.75.75 0 0 1-.832 0 47.87 47.87 0 0 0-8.104-4.342.75.75 0 0 1-.461-.71c.035-1.442.121-2.87.255-4.286.921.304 1.83.634 2.726.99v1.27a1.5 1.5 0 0 0-.14 2.508c-.09.38-.222.753-.397 1.11.452.213.901.434 1.346.66a6.727 6.727 0 0 0 .551-1.607 1.5 1.5 0 0 0 .14-2.67v-.645a48.549 48.549 0 0 1 3.44 1.667 2.25 2.25 0 0 0 2.12 0Z" />
+                                <path
+                                    d="M4.462 19.462c.42-.419.753-.89 1-1.395.453.214.902.435 1.347.662a6.742 6.742 0 0 1-1.286 1.794.75.75 0 0 1-1.06-1.06Z" />
+                            </svg>
+                        </div>
+                        <h3 class="features__box-title">Lorem Ipsum</h3>
+                        <p class="features__box-description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non placeat, vitae nesciunt porro
+                            ipsa beatae obcaecati hic praesentium ullam numquam quisquam sunt fugit doloribus odit vero
+                            nobis, culpa laboriosam accusamus?
+                        </p>
+                    </div>
+                    <div class="features__box">
+                        <div class="features__box-icon-container">
+                            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor" class="features__box-icon">
+                                <path
+                                    d="M11.7 2.805a.75.75 0 0 1 .6 0A60.65 60.65 0 0 1 22.83 8.72a.75.75 0 0 1-.231 1.337 49.948 49.948 0 0 0-9.902 3.912l-.003.002c-.114.06-.227.119-.34.18a.75.75 0 0 1-.707 0A50.88 50.88 0 0 0 7.5 12.173v-.224c0-.131.067-.248.172-.311a54.615 54.615 0 0 1 4.653-2.52.75.75 0 0 0-.65-1.352 56.123 56.123 0 0 0-4.78 2.589 1.858 1.858 0 0 0-.859 1.228 49.803 49.803 0 0 0-4.634-1.527.75.75 0 0 1-.231-1.337A60.653 60.653 0 0 1 11.7 2.805Z" />
+                                <path
+                                    d="M13.06 15.473a48.45 48.45 0 0 1 7.666-3.282c.134 1.414.22 2.843.255 4.284a.75.75 0 0 1-.46.711 47.87 47.87 0 0 0-8.105 4.342.75.75 0 0 1-.832 0 47.87 47.87 0 0 0-8.104-4.342.75.75 0 0 1-.461-.71c.035-1.442.121-2.87.255-4.286.921.304 1.83.634 2.726.99v1.27a1.5 1.5 0 0 0-.14 2.508c-.09.38-.222.753-.397 1.11.452.213.901.434 1.346.66a6.727 6.727 0 0 0 .551-1.607 1.5 1.5 0 0 0 .14-2.67v-.645a48.549 48.549 0 0 1 3.44 1.667 2.25 2.25 0 0 0 2.12 0Z" />
+                                <path
+                                    d="M4.462 19.462c.42-.419.753-.89 1-1.395.453.214.902.435 1.347.662a6.742 6.742 0 0 1-1.286 1.794.75.75 0 0 1-1.06-1.06Z" />
+                            </svg>
+                        </div>
+                        <h3 class="features__box-title">Lorem Ipsum</h3>
+                        <p class="features__box-description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non placeat, vitae nesciunt porro
+                            ipsa beatae obcaecati hic praesentium ullam numquam quisquam sunt fugit doloribus odit vero
+                            nobis, culpa laboriosam accusamus?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- <section></section> -->
         <!-- <section></section> -->
     </main>
